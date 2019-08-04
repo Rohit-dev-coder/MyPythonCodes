@@ -1,0 +1,15 @@
+#program with two functions
+def add(x,y):
+	"""
+	This Function takes two numbers and finds heir sum.
+	It displays the sum as result.
+	"""
+	print("Sum = ",(x+y))
+def message():
+	'''
+	This function displays a message.
+	This is a welcome message to the user.
+	'''
+	print("Welcome To Python")
+add(10,20)
+message()
